@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.row{
+    margin: 0%;
+    padding: 0%;
+}
+[class^="col-"] {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+#nav{
+    background-color: #7852A9;
+    height: 100%;
+    position: fixed;
+    width: 15%;
+}
+#main{ 
+    height: 100%;
+    margin-left: 15%;
+    width: 85%;
+}
+.img-div{
+    background-image: url("music.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+}
+#nav nav{
+    padding-top: 100%;
+}
+#nav a{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+.table-responsive-lg::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+  .table-responsive-lg::-webkit-scrollbar-thumb {
+    border-radius: 100%;
+    background-color: #888;
+  }
+ 
+  .table-responsive-lg::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+  }
+  .table-responsive-lg::-webkit-scrollbar {
+    height: 5px; 
+    border-radius: 10%;
+  }
+  .table-responsive-lg::-webkit-scrollbar-button {
+    display: none;
+  }
+.button{
+    background-color: #555; 
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
