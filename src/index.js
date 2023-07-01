@@ -29,7 +29,7 @@ const options_releases = {
     startFrom: '0'
   },
   headers: {
-    'X-RapidAPI-Key': '0e5aae0187mshff0e21944cdb7bdp1db0e9jsn24da581ff5ef',
+    'X-RapidAPI-Key': 'ce6b10e98bmsh6c44a8918ed3302p16c8bajsn4af974dc3335',
     'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
   }
 };
@@ -45,7 +45,7 @@ const options_releases = {
       limit: '5'
     },
     headers: {
-      'X-RapidAPI-Key': '0e5aae0187mshff0e21944cdb7bdp1db0e9jsn24da581ff5ef',
+      'X-RapidAPI-Key': 'ce6b10e98bmsh6c44a8918ed3302p16c8bajsn4af974dc3335',
       'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
     }
   };
@@ -71,7 +71,7 @@ app.post('/index',async(req,res)=>{
       startFrom: '0'
     },
     headers: {
-      'X-RapidAPI-Key': '0e5aae0187mshff0e21944cdb7bdp1db0e9jsn24da581ff5ef',
+      'X-RapidAPI-Key': 'ce6b10e98bmsh6c44a8918ed3302p16c8bajsn4af974dc3335',
       'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
     }
   };
@@ -87,7 +87,7 @@ app.post('/index',async(req,res)=>{
         limit: '5'
       },
       headers: {
-        'X-RapidAPI-Key': '0e5aae0187mshff0e21944cdb7bdp1db0e9jsn24da581ff5ef',
+        'X-RapidAPI-Key': 'ce6b10e98bmsh6c44a8918ed3302p16c8bajsn4af974dc3335',
         'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
       }
     };
