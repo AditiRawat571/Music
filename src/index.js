@@ -99,9 +99,8 @@ app.post('/index',async(req,res)=>{
   }
 })
 
-app.post('/favourites',async(req,res)=>{
-  const item=req.body.nfav;
-  console.log(item);
+app.post('/contact',async(req,res)=>{
+   res.send("Feedback subitted");
 })
 // Start the server
 

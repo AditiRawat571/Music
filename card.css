@@ -1,0 +1,37 @@
+.row{
+    margin: 0%;
+}
+.info{
+    width: 70vw;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.2),rgba(0,0,0,0.02),rgba(0,0,0,0.02));
+    height: 120vh;
+}
+.img-bg{
+    background-image: url("public/headphone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.author{
+    text-align: end;
+}
+.info-text h4{
+    color: #A020F0;
+    font-size: 45px;
+    font-weight: 600;
+}
+.info-text p{
+    color: #B24BF3;
+    display: flex;
+    justify-content:center;
+    font-size: 15px;
+    padding-top: 5%;
+}
+.info-card{
+    color: white;
+}
+.info-card h4{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}

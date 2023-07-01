@@ -67,3 +67,92 @@ img{
     height: 20px;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
+
+/**************************************************************/
+
+center .card-group{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    box-shadow: 2px 1px 8px black;
+}
+center form{
+  padding-left: 15%;
+  padding-right: 15%;
+ }
+center .btn{
+    background-color: #4B0082;
+    margin-top: 5%;
+    color: white;
+ }
+center .submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5%;
+ }
+center h3{
+    padding-top: 10%;
+ }
+center h1{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+center i{
+    color: white;
+    font-size: 20px;
+}
+center p{
+    padding-top: 3%;
+    color: white;
+    font-size: 15px;
+}
+center #bg{
+    color: white;
+    background-color:#4B0082;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*********************************************************************************************************/
+
+.info{
+    width: 70vw;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.2),rgba(0,0,0,0.02),rgba(0,0,0,0.02));
+    height: 120vh;
+    margin-top: 10%;
+}
+.img-bg{
+    background-image: url("headphone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.author{
+    text-align: end;
+}
+.info-text h4{
+    color: #A020F0;
+    font-size: 45px;
+    font-weight: 600;
+}
+.info-text p{
+    color: #B24BF3;
+    display: flex;
+    justify-content:center;
+    font-size: 15px;
+    padding-top: 5%;
+}
+.info-card{
+    color: white;
+}
+.info-card h4{
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
